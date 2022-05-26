@@ -32,10 +32,12 @@
     background: #FF7143;
     border-radius: 10px;
     color: aliceblue;
+    transition: 1s;
     width: 400px;
     height: 500px;
 }
 .info___button:hover{
     background: #9F3919;
     color: aliceblue;
+
 }
