@@ -3,11 +3,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 250px;
 }
 
 .switcher__title {
-	max-width: 534px 140px;
+	max-width: 50%;
 	font-size: 60px;
 	line-height: 70px;
 }

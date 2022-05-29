@@ -7,8 +7,6 @@
 
 .info__sector {
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 100px;
 }
 
 .info__sector-textW {
@@ -31,7 +29,6 @@
 }
 
 .info__sector-button {
-    margin-top: 50px;
     padding: 20px 50px;
     font-size: 17px;
     color: #5454D4;
