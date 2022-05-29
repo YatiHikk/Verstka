@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/landing.css">
     <link rel="stylesheet" href="styles/bottom.css">
-    <link rel="stylesheet" href="styles/toggler.css">
     <link rel="stylesheet" href="styles/info.css">
+    <link rel="stylesheet" href="styles/switcher.css">
+    <link rel="stylesheet" href="styles/benefits.css">
 </head>
 
 <body>
@@ -35,10 +36,12 @@
                     Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business
                     end-to-end.
                 </p>
-                <button class="main-landing__button">
-                    Get Started
-                </button>
-                <img src="images/Down Arrow.png" class="main-landing__arrow" alt="arrow" />
+                <div class="main-landing__area-button">
+                    <button class="main-landing__button">
+                        Get Started
+                    </button>
+                    <img src="icon/arrow-down.svg" class="main-landing__arrow" alt="arrow" />
+                </div>
             </div>
             <img src="images/hero.png" class="main-landing__img" alt="hero" />
         </section>
@@ -79,114 +82,105 @@
             </div>
             <img src="images/Man.png" class="main-landing__img3" alt="Man" />
         </section>
-        <section class="main__landing main__bottom">
-            <div class="main-landing__bottom">
-                <img src="images/Card.png" 
-                class="main-landing__bottom-img" 
-                alt="card" 
-                />
-                <h1 class="main-landing__bottom-title">
+        <section class="main__benefits benefits">
+            <div class="benefits__card">
+                <img src="images/Card.png" class="benefits__card-img" alt="card" />
+                <h1 class="benefits__card-title">
                     Benchmarks
                 </h1>
-                <p class="main-landing__bottom-text">
-                    See how you stack up against comparable <br>companies in similar stages.
+                <p class="benefits__card-tex">
+                    See how you stack up against comparable companies in similar stages.
                 </p>
 
             </div>
-            <div class="main-landing__bottom">
-                <img src="images/Calculator.png" 
-                class="main-landing__bottom-img" 
-                alt="Calculator" 
-                />
-                <h1 class="main-landing__bottom-title">
+            <div class="benefits__card">
+                <img src="images/Calculator.png" class="benefits__card-img" alt="Calculator" />
+                <h1 class="benefits__card-title">
                     Pricing Audit
                 </h1>
-                <p class="main-landing__bottom-text">
-                    Benchmark the health of your monetization <br>and pricing strategy.
+                <p class="benefits__card-tex">
+                    Benchmark the health of your monetization and pricing strategy.
                 </p>
 
             </div>
-            <div class="main-landing__bottom">
-                <img src="images/Camera.png" 
-                class="main-landing__bottom-img" 
-                alt="Camera" 
-                />
-                <h1 class="main-landing__bottom-title">
+            <div class="benefits__card">
+                <img src="images/Camera.png" class="benefits__card-img" alt="Camera" />
+                <h1 class="benefits__card-title">
                     Retention Audit
                 </h1>
-                <p class="main-landing__bottom-text">
-                    Audit where revenue leakage exists and <br>where you can increase retention.
+                <p class="benefits__card-tex">
+                    Audit where revenue leakage exists and where you can increase retention.
                 </p>
 
             </div>
         </section>
-        <section class="main-landing">
+        <section class="main__switcher switcher">
             <div>
-                <h1 class="main-landing__title">
-                    Get the right plan <br>for future product.
-                </h1> 
+                <h1 class="switcher__title">
+                    Get the right plan for future product.
+                </h1>
             </div>
-            <div class="form_toggle">
-                <div class="form_toggle-item item-1">
+            <div class="switcher__form">
+                <div class="switcher__form-item item-1">
                     <input id="fid-1" type="radio" name="radio" value="off" checked>
                     <label for="fid-1">Yearly</label>
                 </div>
-                <div class="form_toggle-item item-2">
+                <div class="switcher__form-item item-2">
                     <input id="fid-2" type="radio" name="radio" value="on">
                     <label for="fid-2">Monthly</label>
                 </div>
             </div>
 
         </section>
-        <section class="main__bottom">
-            <div class="main-landing__bottom">
+        <section class="main-info">
+            <div class="info__sector">
                 <div class="info-card">
-                    <p class="info__textW">
-                    Starter
+                    <p class="info__sector-textW">
+                        Starter
                     </p>
-                    <h1 class="info__title">
-                    Free
+                    <h1 class="info__sector-title">
+                        Free
                     </h1>
-                    <p class="info__text">
-                    1 Website <br><br>5 GB Hosting <br><br>Limited Support
+                    <p class="info__sector-text">
+                        1 Website <br><br>5 GB Hosting <br><br>Limited Support
                     </p>
-                    <button class="info___button">
-                    Get Started
-                    </button>
-            </div>
-            </div>
-            <div class="main-landing__bottom">
-                <div class="info-card">
-                    <p class="info__textW">
-                    Premium
-                    </p>
-                    <h1 class="info__title">
-                    $29/month
-                    </h1>
-                    <p class="info__text">
-                    10 Website <br><br>15 GB Hosting <br><br>Premium Support
-                    </p>
-                    <button class="info___button">
-                    Get Started
+                    <button class="info__sector-button">
+                        Get Started
                     </button>
                 </div>
             </div>
-            <div class="main-landing__bottom">
+            <div class="info__sector">
                 <div class="info-card">
-                    <p class="info__textW">
-                    Enterprise
+                    <p class="info__sector-textW">
+                        Premium
                     </p>
-                    <h1 class="info__title">
-                    $49/month
+                    <h1 class="info__sector-title">
+                        $29/month
                     </h1>
-                    <p class="info__text">
-                    Unlimited Website <br><br>50 GB Hosting <br><br>Premium Support
+                    <p class="info__sector-text">
+                        10 Website <br><br>15 GB Hosting <br><br>Premium Support
                     </p>
-                    <button class="info___button">
-                    Get Started
+                    <button class="info__sector-button">
+                        Get Started
                     </button>
-                    </div>
-            </div>   
+                </div>
+            </div>
+            <div class="info__sector">
+                <div class="info-card">
+                    <p class="info__sector-textW">
+                        Enterprise
+                    </p>
+                    <h1 class="info__sector-title">
+                        $49/month
+                    </h1>
+                    <p class="info__sector-text">
+                        Unlimited Website <br><br>50 GB Hosting <br><br>Premium Support
+                    </p>
+                    <button class="info__sector-button">
+                        Get Started
+                    </button>
+                </div>
+            </div>
         </section>
     </main>
 </body>

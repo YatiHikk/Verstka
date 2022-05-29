@@ -1,0 +1,40 @@
+.main__plans {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.plans__sector {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.plans__sector-card {
+    text-decoration: none;
+    width: 350px;
+    height: 450px;
+    background-color: #F8F8F8;
+}
+
+.plans__sector-card__textW {
+    font-size: 17px;
+    line-height: 70px;
+    color: #696871;
+}
+
+.plans__sector-card__text {
+    font-size: 18px;
+    color: #696871;
+    line-height: 30px;
+}
+
+.plans__sector-card__title {
+    font-size: 50px;
+    line-height: 70px;
+    padding: 10px;
+    color: #1D293F;
+}
+
+

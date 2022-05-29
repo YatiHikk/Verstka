@@ -1,34 +1,54 @@
-.info__textW {
-    font-size: 20px;
-    line-height: 70px;
-}
-.info__text {
-    font-size: 20px;
-    line-height: 30px;
-}
-.info__title {
-    font-size: 40px;
-    line-height: 70px;
-    padding: 10px;
+.main-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-.info___button{
+.info__sector {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.info__sector-textW {
+    font-size: 17px;
+    line-height: 70px;
+    color: #696871;
+}
+
+.info__sector-text {
+    font-size: 18px;
+    color: #696871;
+    line-height: 30px;
+}
+
+.info__sector-title {
+    font-size: 50px;
+    line-height: 70px;
+    padding: 10px;
+    color: #1D293F;
+}
+
+.info__sector-button {
     margin-top: 50px;
     padding: 20px 50px;
     font-size: 17px;
     color: #5454D4;
     border-radius: 10px;
     border: none;
-    cursor: pointer
+    cursor: pointer;
+    background-color: #FFFFFF;
 }
 
-.info-card{
+.info-card {
     text-decoration: none;
     width: 350px;
     height: 450px;
+    background-color: #F8F8F8;
 }
 
-.info-card:hover{
+.info-card:hover {
     background: #FF7143;
     border-radius: 10px;
     color: aliceblue;
@@ -36,8 +56,15 @@
     width: 400px;
     height: 500px;
 }
-.info___button:hover{
+
+.info__sector-button:hover {
     background: #9F3919;
     color: aliceblue;
+}
 
+@media screen and (max-width: 800px) {
+    .main-info {
+        flex-direction: column;
+        padding: 100px;
+    }
 }
