@@ -2,12 +2,10 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    gap: 119px;
+    margin-bottom: 150px;
 }
 
-.main__bottom-img {
-    width: 120px;
-}
 
 .main-landing__bottom {
     text-align: center;

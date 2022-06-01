@@ -1,13 +1,17 @@
 header {
+    justify-content: space-around;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
+    gap: 180px;
 }
 
-.header__img {
-    height: 50px;
-    margin-right: 200px;
+.header__menu {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    align-content: space-between;
 }
 
 .header___button {
@@ -18,7 +22,6 @@ header {
     background: #FF7143;
     border: none;
     cursor: pointer;
-    margin-left: 50px;
 
 }
 
@@ -29,7 +32,6 @@ header {
     font-size: 15px;
     color: #696871;
     line-height: 30px;
-    margin: 30px;
 }
 
 .menu__text::before {
@@ -52,11 +54,11 @@ header {
     color: #5454D4
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
 
     header {
         flex-direction: column;
-        padding: 50px;
+        gap: 40px;
     }
 
 }

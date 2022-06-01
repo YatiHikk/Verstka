@@ -1,7 +1,5 @@
 .main__switcher {
-	padding: 40px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 }
 
@@ -17,7 +15,6 @@
 }
 
 .switcher__form-item {
-	float: left;
 	display: inline-block;
 }
 
@@ -29,7 +26,6 @@
 	display: inline-block;
 	padding: 0px 15px;
 	line-height: 34px;
-	border: 1px solid #999;
 	border-right: none;
 	cursor: pointer;
 	user-select: none;
@@ -46,7 +42,6 @@
 
 .switcher__form .item-2 label {
 	border-radius: 0 10px 10px 0;
-	border-right: 1px solid #999;
 	line-height: 55px;
 	font-size: 16px;
 	text-align: center;
@@ -67,5 +62,8 @@
 @media screen and (max-width: 800px) {
     .main__switcher {
         flex-direction: column;
+		gap: 20px;
     }
+
 }
+
