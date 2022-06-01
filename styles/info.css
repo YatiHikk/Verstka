@@ -38,7 +38,6 @@
     border: none;
     cursor: pointer;
     background-color: #FFFFFF;
-    margin-bottom: 27px;
 }
 
 .info-card {
@@ -53,11 +52,11 @@
     border-radius: 10px;
     color: aliceblue;
     transition: 1s;
-    width: 400px;
-    height: 500px;
+    width: 376px;
+    height: 476px;
 }
 
-.info__sector-button:hover {
+.info-card:hover:hover button {
     background: #9F3919;
     color: aliceblue;
 }

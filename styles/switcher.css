@@ -62,8 +62,14 @@
 @media screen and (max-width: 800px) {
     .main__switcher {
         flex-direction: column;
-		gap: 20px;
     }
+
+}
+
+@media screen and (max-width: 400px) {
+    .switcher__title{
+		align-content: center;
+	}
 
 }
 
