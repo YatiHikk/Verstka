@@ -1,13 +1,20 @@
 .main-info {
-    display: flex;
     justify-content: space-around;
     align-items: center;
-
+    margin-bottom: 100px;
 }
 
 .info__sector {
-    text-align: center;
-    margin-bottom: 158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-info__header {
+    display: flex;
+    margin: 150px 0 100px 0;
+    gap: 250px;
 }
 
 .info__sector-textW {
@@ -21,7 +28,7 @@
     font-size: 18px;
     color: #696871;
     line-height: 30px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
 }
 
 .info__sector-title {
@@ -43,8 +50,9 @@
 .info-card {
     text-decoration: none;
     width: 330px;
-    height: 441px;
     background-color: #F8F8F8;
+    text-align: center;
+    margin-bottom: 158px;
 }
 
 .info-card:hover {
@@ -62,17 +70,23 @@
 }
 
 @media screen and (max-width: 1050px) {
-    .main-info {
+
+    .main-info__header{
+        flex-direction: column;
         gap: 30px;
     }
 
-    .info-card{
+    .info__sector{
+        flex-direction: column;
+    }
+
+    .info-card {
         width: 200px;
     }
 
-    .info-card:hover{
+    .info-card:hover {
         width: 250px;
-    } 
+    }
 }
 
 @media screen and (max-width: 800px) {
