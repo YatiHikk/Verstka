@@ -1,0 +1,32 @@
+.main__benefits {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+}
+
+.benefits__card {
+    text-align: center;
+}
+
+.benefits__card-img {
+    width: 100px;
+}
+
+.benefits__card-text {
+    font-size: 16px;
+    color: #696871;
+    max-width: 50px;
+}
+
+.benefits__card-title {
+    font-size: 24px;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .main__benefits {
+        flex-direction: column;
+    }
+}
