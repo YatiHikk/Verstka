@@ -14,7 +14,8 @@
 .main-info__header {
     display: flex;
     margin: 150px 0 100px 0;
-    gap: 250px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .info__sector-textW {
@@ -28,7 +29,6 @@
     font-size: 18px;
     color: #696871;
     line-height: 30px;
-    padding-bottom: 20px;
 }
 
 .info__sector-title {
@@ -44,7 +44,8 @@
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    background-color: #FFFFFF;
+    background-color: #F7F7FB;
+    margin-bottom: 35px;
 }
 
 .info-card {
@@ -81,7 +82,7 @@
     }
 
     .info-card {
-        width: 200px;
+        flex-direction: column;
     }
 
     .info-card:hover {
